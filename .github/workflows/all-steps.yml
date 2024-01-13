@@ -1,4 +1,8 @@
-# Пример для проекта на Node.js
+# Пример для проекта на Node.jobs
+# file: .github/workflows/hello-world.yml
+name: all-steps
+# on – определяет события, которые запускают воркфлоу
+on: push
 jobs:
   build: # имя взято для примера
     runs-on: ubuntu-latest
